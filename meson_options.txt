@@ -1,2 +1,0 @@
-option('deprecated_warnings', type : 'boolean', value : false,
-       description: 'Show compiler warnings about deprecated features')

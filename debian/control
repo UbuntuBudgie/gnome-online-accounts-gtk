@@ -1,16 +1,19 @@
 Source: gnome-online-accounts-gtk
-Section: gnome
+Section: misc
 Priority: optional
-Maintainer: Linux Mint <root@linuxmint.com>
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends:
  debhelper-compat (= 13),
- libglib2.0-dev (>= 2.44),
- libgtk-4-dev (>= 3.0),
+ libglib2.0-dev,
+ libgtk-4-dev,
  libgoa-1.0-dev (>= 3.50),
  libgoa-backend-1.0-dev (>= 3.50),
  meson (>= 0.53.0),
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://github.com/linuxmint/gnome-online-accounts-gtk
+Vcs-Browser: https://github.com/ubuntubudgie/gnome-online-accounts-gtk/tree/debian
+Vcs-Git: https://github.com/ubuntubudgie/gnome-online-accounts-gtk.git -b debian
+Rules-Requires-Root: no
 
 Package: gnome-online-accounts-gtk
 Architecture: any
@@ -18,6 +21,12 @@ Multi-Arch: foreign
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
-Description: GUI Utility for logging into online accounts for the
- purpose of syncing mail, contacts and remote filesystems.
+ gnome-online-accounts (>= 3.50)
+Description: GUI Utility for logging into online accounts
+ Enter login details for some online services such as Google and Facebook.
+ This enables applications to access online services like email,
+ calendars, chat and documents.
  .
+ This is a standalone application for desktop environments where
+ GNOME Online Accounts capability is not integrated in their equivalent
+ settings utility.

@@ -1,4 +1,0 @@
-# List of source files containing translatable strings.
-data/gnome-online-accounts-gtk.desktop.in.in
-src/gnome-online-accounts-gtk.c
-src/online-accounts.ui
