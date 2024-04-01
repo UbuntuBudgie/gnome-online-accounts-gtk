@@ -1,5 +1,5 @@
-gnome-online-accounts-gtk (3.50.1-1) unstable; urgency=medium
+gnome-online-accounts-gtk (3.50.1-0ubuntu1) noble; urgency=medium
 
-    Initial version (Closes: #1068200)
+    Initial version (LP: #2059966)
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 01 Apr 2024 20:03:36 +0100

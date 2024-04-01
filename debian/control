@@ -11,8 +11,8 @@ Build-Depends:
  meson (>= 0.53.0),
 Standards-Version: 4.6.2
 Homepage: https://github.com/linuxmint/gnome-online-accounts-gtk
-Vcs-Browser: https://github.com/ubuntubudgie/gnome-online-accounts-gtk/tree/debian
-Vcs-Git: https://github.com/ubuntubudgie/gnome-online-accounts-gtk.git -b debian
+Vcs-Browser: https://github.com/ubuntubudgie/gnome-online-accounts-gtk/tree/debian-ubuntu
+Vcs-Git: https://github.com/ubuntubudgie/gnome-online-accounts-gtk.git -b debian-ubuntu
 Rules-Requires-Root: no
 
 Package: gnome-online-accounts-gtk
