@@ -1,2 +1,2 @@
 version=4
-https://github.com/linuxmint/gnome-online-accounts-gtk/tags (?:.*?/)?v?(\d[\d.]*)@ARCHIVE_EXT@
+https://github.com/xapp-project/gnome-online-accounts-gtk/tags (?:.*?/)?v?(\d[\d.]*)@ARCHIVE_EXT@

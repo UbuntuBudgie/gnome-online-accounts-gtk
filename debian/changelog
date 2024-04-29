@@ -1,3 +1,14 @@
+gnome-online-accounts-gtk (3.50.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - call adw_init() to theme GOA dialog
+    - use SDD titlebars
+  * Packaging
+    - d/copyright, control, upstream/metadata, watch update to xapp-project
+      for replacement maintainer information
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 29 Apr 2024 20:17:09 +0100
+
 gnome-online-accounts-gtk (3.50.1-1) unstable; urgency=medium
 
     Initial version (Closes: #1068200)
