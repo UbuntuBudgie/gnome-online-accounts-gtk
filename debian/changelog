@@ -1,3 +1,11 @@
+gnome-online-accounts-gtk (3.50.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix FTBFS with gtk-4.15.0 (Closes: #1082681)
+    - Translation updates
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 24 Sep 2024 19:54:57 +0100
+
 gnome-online-accounts-gtk (3.50.2-1) unstable; urgency=medium
 
   * New upstream release
